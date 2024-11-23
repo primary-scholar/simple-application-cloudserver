@@ -2,10 +2,10 @@ package com.application.cloudserver.application;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.mimu.application.cloudserver.api.CalculateParam;
-import com.mimu.application.cloudserver.api.CalculateResult;
-import com.mimu.application.cloudserver.api.RpcResult;
-import com.mimu.application.cloudserver.api.RpcResultUtil;
+import com.application.cloudserver.api.CalculateParam;
+import com.application.cloudserver.api.CalculateResult;
+import com.application.cloudserver.api.RpcResult;
+import com.application.cloudserver.api.RpcResultUtil;
 import com.sohu.mrd.framework.server.transport.http.annotation.CloudController;
 import com.sohu.mrd.framework.server.transport.http.annotation.CloudRequestMapping;
 import com.sohu.mrd.framework.server.transport.http.dto.SimpleHttpRequest;

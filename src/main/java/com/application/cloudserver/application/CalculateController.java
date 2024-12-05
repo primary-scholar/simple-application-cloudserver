@@ -19,7 +19,7 @@ import java.util.Set;
 public class CalculateController {
     private static final Logger LOGGER = LoggerFactory.getLogger(CalculateController.class);
 
-    @CloudRequestMapping(method = "/first/num/add")
+    @CloudRequestMapping(method = "/cal/num/add")
     public String getMethod(SimpleHttpRequest request, SimpleHttpResponse response) {
         CalculateParam calculateParam = build(request, response);
         LOGGER.info("get param:{}", JSONObject.toJSONString(calculateParam));
@@ -30,7 +30,7 @@ public class CalculateController {
     }
 
 
-    @CloudRequestMapping(method = "/first/num/multi")
+    @CloudRequestMapping(method = "/cal/num/multi")
     public String postMethod(SimpleHttpRequest request, SimpleHttpResponse response) {
         Set<String> keySet = request.getParams().keySet();
         String param = keySet.iterator().next();

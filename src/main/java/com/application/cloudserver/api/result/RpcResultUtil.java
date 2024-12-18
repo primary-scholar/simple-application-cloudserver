@@ -1,4 +1,4 @@
-package com.application.cloudserver.api;
+package com.application.cloudserver.api.result;
 
 public class RpcResultUtil {
 
